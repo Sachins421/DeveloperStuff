@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "LPNOA1-15",
+            "type": "al",
+            "request": "launch",
+            "server": "http://localhost",
+            "serverInstance": "BC130",
+            "authentication": "Windows",
+            "port": 7049,
+            "startupObjectId": 22,
+            "breakOnError": true,
+            "breakOnRecordWrite": false
+        }
+        
+    ]
+}
