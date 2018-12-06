@@ -41,6 +41,4 @@ page 50101 "Inbound Header"
         }
     }
 
-    var
-        myInt: Integer;
 }

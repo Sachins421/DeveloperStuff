@@ -20,8 +20,7 @@ xmlport 50100 InboundSales
     }
 
     requestpage
-    {
-        layout
+}        layout
         {
             area(content)
             {
