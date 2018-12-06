@@ -4,41 +4,28 @@ page 50101 "Inbound Header"
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = "Inbound Header";
+    InsertAllowed = true;
 
     layout
     {
         area(Content)
         {
-            group(Control1)
+            repeater(general)
             {
-                field("Customer No"; 'Customer No.')
+                field("Customer No"; "Customer No")
                 {
                     ApplicationArea = All;
 
                 }
-                field(OrderNo; 'Order No.')
+                field(OrderNo; OrderNo)
                 {
                     ApplicationArea = All;
 
                 }
+
             }
         }
     }
 
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction()
-                begin
-
-                end;
-            }
-        }
-    }
 
 }
