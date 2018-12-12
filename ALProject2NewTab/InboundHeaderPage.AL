@@ -5,6 +5,7 @@ page 50101 "Inbound Header"
     UsageCategory = Administration;
     SourceTable = "Inbound Header";
     InsertAllowed = true;
+    Editable = false;
 
     layout
     {
