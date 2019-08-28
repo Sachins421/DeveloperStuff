@@ -3,13 +3,13 @@
     "configurations": [
         
         {
-            "name": "LPNOA1-15",
+            "name": "it-nb4556",
             "type": "al",
             "request": "launch",
             "server": "http://localhost",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            "port": 7049,
+            "port": 2049,
             "startupObjectId": 22,
             "breakOnError": true,
             "breakOnRecordWrite": false
