@@ -1,0 +1,1 @@
+docker run --env accept_eula=Y --memory 4G microsoft/dynamics-nav
